@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(https://www.unisinos.br/noticias/wp-content/uploads/2021/11/2021-SemanaConscienciaNegra-capa.png);
+    background-repeat: no-repeat;
+    background-size: 85em 110em;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    background: #000000;
+}
+
+.container1{
+    background: #3030306e; border: #000000a4 solid 5px;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.wrapped{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container2{
+    height: 460px;
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+    top: 88em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navegacao{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    background-color: #000000;
+    width: 30px;
+    height: 5px;
+    margin: 6px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.bar:hover{
+    background: #383838;
+}
+
+input{
+    display: none;
+}
+
+.imagens{
+    display: flex;
+    width: 600%;
+    height: 100%;
+}
+
+.imagem{
+    width: 16.6666666667%;
+    transition: .5s;
+}
+
+.imagem img{
+    height: 100%;
+    width: 100%;
+}
+
+#imagem1:checked ~ .img1{
+    margin-left: 0;
+}
+
+#imagem2:checked ~ .img1 {
+    margin-left: -16.6666666667%;
+}
+
+#imagem3:checked ~ .img1 {
+    margin-left: -33.3333333333%;
+}
+
+#imagem4:checked ~ .img1 {
+    margin-left: -50%;
+}
+
+#imagem5:checked ~ .img1 {
+    margin-left: -66.6666666667%;
+}
+#imagem6:checked ~ .img1 {
+    margin-left: -83.3333333333%;
+}
+
+.wrapped{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+li{
+    font-size: 1.3em;
+}
+
+footer{
+    position: absolute;
+    top: 53em;
+    left: 16%;
+    font-size: 2em;
+    background: #3030306e; border: #000000a4 solid 5px;
+}
